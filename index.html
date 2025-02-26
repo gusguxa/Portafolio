@@ -15,12 +15,12 @@
         }
         .profile-pic {
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            margin-top: 20px;
+            width: 180px;
+            height: 250px;
+            margin-top: 30px;
         }
         .project-img {
-            width: 25%; /* Reducción adicional del tamaño de la imagen */
+            width: 22%; 
             transition: transform 0.3s;
         }
         .project-img:hover {
@@ -29,25 +29,25 @@
         .section-title {
             margin-top: 40px;
             font-size: 1.5em;
-            color: #00f; /* Cambio de color para los títulos de secciones */
+            color: rgb(11, 116, 197); 
         }
         .contact-info, .skills {
             margin-top: 20px;
         }
         .social-media svg {
-            width: 50px;
-            height: 50px;
+            width: 200px;
+            height: 200px;
             margin: 10px;
-            fill: #fff;
+            fill: #111011;
             transition: fill 0.3s;
         }
         .social-media svg:hover {
-            fill: #007bff; /* Color de hover para los íconos de social media */
+            fill: #c5cad7; 
         }
         .btn-dark {
-            background-color: #333;
+            background-color: #1d1a1a;
             border: none;
-            color: white;
+            color: rgb(223, 17, 17);
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
@@ -57,20 +57,19 @@
             cursor: pointer;
         }
         .btn-dark:hover {
-            background-color: #555;
+            background-color: #171616;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Perfil -->
+        
         <section id="perfil">
             <img src="Perfil.jpg" alt="Foto de Perfil" class="profile-pic">
             <h1>&lt;/&gt; Gustavo Velasco Magallanes</h1>
             <p>Programando ando, soy un desarrollador full stack apasionado por el diseño web y la programación.</p>
         </section>
-
-        <!-- Social Media -->
+        
         <section id="social-media">
             <h2 class="section-title">Social medi@</h2>
             <a href="https://www.linkedin.com/in/tu-usuario" target="_blank">
@@ -85,33 +84,59 @@
             </a>
         </section>
 
-        <!-- Proyectos -->
+        
         <section id="proyectos">
             <h2 class="section-title">Proyectos</h2>
             <div class="project">
-                <h3>Nombre del Proyecto</h3>
-                <p>Descripción del proyecto. Tecnologías utilizadas: HTML, CSS, JS.</p>
-                <img src="GPF.jpg" alt="Proyecto 1" class="project-img">
+                <h3>Sistema para cafeteria</h3>
+                <p>Levanta pedidos, realiza cambios y administra una cafeteria de forma facil y rapida.</p>
+                <img src="cafete.png" alt="Proyecto 1" class="project-img">
                 <div class="project-technologies">
-                    <span class="badge badge-primary">HTML</span>
                     <span class="badge badge-success">CSS</span>
-                    <span class="badge badge-info">JavaScript</span>
+                    <span class="badge badge-info">Python</span>
+                    <a href="https://github.com/tu-usuario/nombre-del-proyecto" class="btn btn-dark" target="_blank">Código</a>
                 </div>
+                <div class="project">
+                    <h3> Sistema de Asistencias</h3>
+                    <p>Toma asistencia sin perder tu tiempo de forma rapida, segura y simple.</p>
+                    <img src="Asist.jpg.png" alt="Proyecto 1" class="project-img">
+                    <div class="project-technologies">
+                        <span class="badge badge-primary">HTML</span>
+                        <span class="badge badge-success">CSS</span>
+                        <span class="badge badge-success">JavaScript</span>
+                        <span class="badge badge-success">ReactWeb</span>
+                      <a href="https://github.com/tu-usuario/nombre-del-proyecto" class="btn btn-dark" target="_blank">Código</a>
+                    </div>
+                    <div class="project">
+                        <h3> Rastreo de Ganado</h3>
+                        <p>Localiza en tiempo real un animal, asi como su estado de salud.</p>
+                        <img src="GPF.jpg" alt="Proyecto 1" class="project-img">
+                        <div class="project-technologies">
+                            <span class="badge badge-primary">HTML</span>
+                            <span class="badge badge-success">CSS</span>
+                            <span class="badge badge-info">JavaScript</span>
+                            <span class="badge badge-info">ReactNative</span>
+                            <span class="badge badge-info">Express</span>
+                        </div>
                 <a href="https://github.com/tu-usuario/nombre-del-proyecto" class="btn btn-dark" target="_blank">Código</a>
             </div>
         </section>
 
-        <!-- Contacto -->
+        
         <section id="contacto">
             <h2 class="section-title">Contacto</h2>
-            <p>Email: <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a></p>
-            <p>Teléfono: +52 123 456 7890</p>
+            <p>Email: <a href="mailto:tu-correo@ejemplo.com">guscompras123@gmail.com</a></p>
+            <p>Teléfono: +52 495 902 4476</p>
         </section>
 
-        <!-- Habilidades -->
+        
         <section id="habilidades">
-            <h2 class="section-title">Habilidades</h2>
-            <p>Listado de habilidades...</p>
+            <h2 class="section-title">Soft skills</h2>
+            <p>comunicacion</p>
+            <p>trabajo en equipo</p>
+            <p>pensamiento critico</p>
+            <p>resiliencia</p>
+            <p>liderazgo</p>
         </section>
     </div>
 
